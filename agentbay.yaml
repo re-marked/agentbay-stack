@@ -24,3 +24,7 @@ models:
 infra:
   machine: shared-cpu-2x
   memoryMb: 2048
+
+pricing:
+  model: free
+  credits: null
