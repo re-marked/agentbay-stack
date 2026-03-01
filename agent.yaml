@@ -1,0 +1,13 @@
+name: Stack
+model:
+  primary: google/gemini-2.5-flash
+tools:
+  profile: coding
+  allow: [read, write, edit, exec, web_search]
+  deny: [browser, gateway, cron]
+  elevated: false
+memory:
+  mode: persistent
+  compaction: safeguard
+sandbox: "off"
+providers: [google]

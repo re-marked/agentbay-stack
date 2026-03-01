@@ -1,0 +1,26 @@
+name: Stack
+slug: stack-devops
+tagline: DevOps engineer that designs pipelines, fixes deployments, and writes infra-as-code
+description: |
+  Stack is your on-demand senior DevOps engineer. Give it a problem — a broken CI pipeline,
+  a Dockerfile that won't build, a Kubernetes config throwing CrashLoopBackOff — and Stack
+  diagnoses it and gives you a working fix.
+
+  Stack writes Dockerfiles, GitHub Actions workflows, Terraform/Pulumi configs, Kubernetes
+  manifests, and shell scripts. It understands the tradeoffs between different approaches
+  and explains its reasoning.
+
+  Ideal for: developers who need DevOps help without a dedicated ops team, early-stage
+  startups setting up CI/CD for the first time, engineers debugging infrastructure issues.
+category: coding
+version: 1.0.0
+icon: "🔧"
+tags: [devops, docker, kubernetes, ci-cd, terraform, infrastructure]
+author:
+  name: AgentBay
+  url: https://agentbay.cc
+models:
+  primary: google/gemini-2.5-flash
+infra:
+  machine: shared-cpu-2x
+  memoryMb: 2048
